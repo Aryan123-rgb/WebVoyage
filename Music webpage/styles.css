@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    scroll-behavior: smooth;
+    scroll-margin: 0;
+}
+
+nav{
+    position:sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #270082;
+    padding-left: 10rem;
+    padding-right: 8rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.8);
+}
+
+.mytunes{
+    font-size: 2.7rem;
+    color: white;
+    font-weight: 500;
+}
+
+.leftpart a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+
+.leftpart a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.5s step-start;
+}
+
+.leftpart{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.section1{
+    background-image: url(images/hero_image.png);
+    background-size: 1600px;
+    height: 800px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+}
+
+.third{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section2{
+    height: 450px;
+    background-color: #281154;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.section2_first{
+    display: flex;
+    padding-top: 7rem;
+    font-size: 3rem;
+    color: white;
+    gap: 15px;
+}
+
+.section2_second{
+    font-size: 2rem;
+    color: white;
+}
+
+.section2_third,.section2_fifth{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.section2_fourth button{
+    background-color: red;
+    padding: 0.71rem;
+    border: none;
+    color: white;
+}
+
+.section2_fourth button:hover{
+    opacity: 0.8;
+    transition: 0.25s ease;
+}
+
+.nayaazooba{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background:linear-gradient(to bottom,#281154 0%, #281154 50%, white 50% , white 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.container .header{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+
+.container .main{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.container button{
+    background-color: #37008E;
+    color: white;
+    padding: 5px;
+}
+
+.container button:hover{
+    opacity: 0.8;
+    transition: 0.25s ease;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/video.png);
+    height: 700px;
+    gap: 1rem;
+}
+
+.section3_first{
+    color: white;
+    font-size: 2rem;
+}
+
+.section3_second{
+    color: white;
+    width: 60%;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+
+.section4{
+    display: flex;
+    padding:2.5rem;
+    gap: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid white;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.555);
+}
+
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+
+.card .heading{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.card .paragraph{
+    font-size: 1rem;
+    font-weight: 300;
+    align-self: flex-start;
+}
+
+.section4 .img_content{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.section4 .button button{
+    background-color: #37008E;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.section4 .button button:hover{
+    opacity: 0.8;
+    transition: 0.25s ease;
+}
+
+.section5{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1B0058;
+    padding: 1rem;
+    color: white;
+}
+
+.section5 h3{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
+}
+
+.footer{
+    background-color: #270082;
+    display: flex;
+    justify-content: center;
+    padding: 1.3rem;
+    font-size: 1.2rem;
+    color: white;
+}
